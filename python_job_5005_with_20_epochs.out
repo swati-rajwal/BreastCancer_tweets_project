@@ -1,0 +1,55 @@
+Train set shape: (3513, 2)
+Dev set shape: (302, 2)
+Test set shape: (1204, 2)
+Epoch 1/20, Loss: 0.5088886321945624
+Epoch 2/20, Loss: 0.35572507303546774
+Epoch 3/20, Loss: 0.2760319191793149
+Epoch 4/20, Loss: 0.2029988456771455
+Epoch 5/20, Loss: 0.15272586820647122
+Epoch 6/20, Loss: 0.1151689941698516
+Epoch 7/20, Loss: 0.07759868804185482
+Epoch 8/20, Loss: 0.07761369869642129
+Epoch 9/20, Loss: 0.053954241978830066
+Epoch 10/20, Loss: 0.03882272067064398
+Epoch 11/20, Loss: 0.044804649077228864
+Epoch 12/20, Loss: 0.02822931538605851
+Epoch 13/20, Loss: 0.03212484962264584
+Epoch 14/20, Loss: 0.0193421378658968
+Epoch 15/20, Loss: 0.02519120406630629
+Epoch 16/20, Loss: 0.02910856746311765
+Epoch 17/20, Loss: 0.02687900845657251
+Epoch 18/20, Loss: 0.02780257894284494
+Epoch 19/20, Loss: 0.015811155746698866
+Epoch 20/20, Loss: 0.012078563920328056
+Validation Loss: 0.7928005717694759
+
+Validation Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.92      0.87      0.89       225
+           1       0.67      0.79      0.73        77
+
+    accuracy                           0.85       302
+   macro avg       0.80      0.83      0.81       302
+weighted avg       0.86      0.85      0.85       302
+
+test set predictions saved!
+Test Loss: 0.7470147976311733
+
+Test Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.92      0.90      0.91       896
+           1       0.72      0.78      0.75       308
+
+    accuracy                           0.87      1204
+   macro avg       0.82      0.84      0.83      1204
+weighted avg       0.87      0.87      0.87      1204
+
+test set predictions saved!
+
+Confusion Matrix:
+ [[803  93]
+ [ 69 239]]
+Columns in df_full preprocessed: Index(['text'], dtype='object')
+BC_full_data_roberta predictions saved!!
