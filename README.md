@@ -10,6 +10,11 @@ Our primary objectives were threefold:
 2. Identify breast cancer-related concern-based topics in patients’ tweets.
 3. Perform sentiment intensity analysis of patients who voice dissatisfaction and identification of treatment discontinuation in the self-reported tweets category.
 
+## 🏃‍♂️To Run the code
+1. Python 3 is used as the programming language
+2. We have used Jupyter Notebook for most of the coding purposes
+3. Dataset is available at request
+
 ## 📈Results
 
 | Model         | Hyperparameter                  | F1 Micro | F1 Macro | F2 Micro | F2 Macro | Log loss |
