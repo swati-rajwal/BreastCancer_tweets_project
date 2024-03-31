@@ -33,4 +33,4 @@ Table 1: Classification Results across various Evaluation Metrics
 
 Please consider citing 📑 our paper if our repository is helpful to your work.
 
-Citation details will be here soon....
+_Swati Rajwal, Avinash Kumar Pandey, Zhishuo Han, Abeed Sarker. 2024. Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing. To-Appear in Proceedings of the CL4HEALTH Workshop within LREC-COLING 2024, Torino, Italia._
