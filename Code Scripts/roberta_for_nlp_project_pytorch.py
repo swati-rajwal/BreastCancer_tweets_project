@@ -294,25 +294,5 @@ print(f"unique class labels: {df['roberta_predictions'].unique()}")
 sia = SentimentIntensityAnalyzer()
 df['sentiment_on_original'] = df['original_text'].apply(lambda x: (sia.polarity_scores(x)['compound'] + 1) / 2)   ## Original text
 df['sentiment_on_preprocessed'] = df['text'].apply(lambda x: (sia.polarity_scores(x)['compound'] + 1) / 2)    # Preprocessed text
-
-df.to_csv('/local/scratch/shared-directories/ssanet/swati_folder/bionlp/Breast Cancer Data/Predictions/BC_full_data_roberta_predictions_with_sentiment_score.csv',index=False)
-
+df.to_csv('/local/scratch/shared-directories/ssanet/swati_folder/bionlp/Breast Cancer Data/Predictions/roberta_prediction_1_only_with_sentiment.csv',index=False)
 print("Sentment scores file saved!!!")
-
-
-################## BERTOPIC ########################
-df = pd.read_csv('/local/scratch/shared-directories/ssanet/swati_folder/bionlp/Breast Cancer Data/Predictions/BC_full_data_roberta_predictions.csv')
-self_reported_texts = df['original_text'].to_list()
-
-topic_model = BERTopic(verbose=True)
-topics, probs = topic_model.fit_transform(self_reported_texts)
-
-# topic_model.visualize_barchart(top_n_topics=50)
-import matplotlib.pyplot as plt
-
-# Assuming topic_model is your topic modeling object and it has a visualize_barchart method
-fig = topic_model.visualize_barchart(top_n_topics=50)
-fig = topic_model.visualize_barchart()
-fig.write_html("/local/scratch/shared-directories/ssanet/swati_folder/bionlp/topicmodelling_on_original_texts.html")
-# Save the figure
-fig.savefig("/local/scratch/shared-directories/ssanet/swati_folder/bionlp/topicmodelling_on_original_texts.png")
