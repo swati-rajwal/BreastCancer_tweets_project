@@ -13,7 +13,8 @@ Our primary objectives were threefold:
 ## 🏃‍♂️To Run the code
 1. Python 3 is used as the programming language
 2. We have used Jupyter Notebook for most of the coding purposes
-3. Dataset is available at request
+3. The sequence of code to run is marked by the alphabet prefix in the file name (A to E)
+4. Dataset is available at request
 
 ## 📈Results
 
