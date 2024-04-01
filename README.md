@@ -1,7 +1,7 @@
 # Unveiling Voices: Identification of Concerns in a Social Media Breast Cancer Cohort via Natural Language Processing
 
 ## 📚 Pipeline
-![image](https://github.com/swati-rajwal/BreastCancer_tweets_project/assets/145946818/dc6322d9-a320-4678-a590-eb24e09eab17)
+<img width="951" alt="image" src="https://github.com/swati-rajwal/BreastCancer_tweets_project/assets/145946818/79afc838-8dbe-4c34-b626-801817c22944">
 Figure 1: Natural language processing pipeline for identifying Treatment Discontinuation Topics among breast cancer twitter cohort.
 
 ## 🎯Objective
