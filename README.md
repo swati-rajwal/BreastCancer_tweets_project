@@ -13,7 +13,7 @@ Our primary objectives were threefold:
 
 ## 🏃‍♂️To Run the code
 1. Python 3 is used as the programming language
-2. Download: [GoogleNews-vectors-negative300.bin](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g)
+2. Download: <a href="https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/view?resourcekey=0-wjGZdNAUop6WykTtMip30g" target="_blank">GoogleNews-vectors-negative300.bin</a>
 3. We have used Jupyter Notebook for most of the coding purposes
 4. The sequence of code to run is marked by the alphabet prefix in the file name (A to E)
 5. Dataset is available at request
